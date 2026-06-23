@@ -23,10 +23,10 @@ for caps in browsers:
         desired_capabilities=caps
     )
 
-    driver.get("https://www.demoblaze.com/")  # Example demo site
-    driver.find_element(By.ID, "login2").click()
-    driver.find_element(By.ID, "loginusername").send_keys("testuser")
-    driver.find_element(By.ID, "loginpassword").send_keys("password")
-    driver.find_element(By.XPATH, "//button[text()='Log in']").click()
+    driver.get("https://www.saucedemo.com/")  # Correct demo site
+    driver.find_element(By.ID, "user-name").send_keys("standard_user")
+    driver.find_element(By.ID, "password").send_keys("secret_sauce")
+    driver.find_element(By.ID, "login-button").click()
 
     driver.quit()
+
