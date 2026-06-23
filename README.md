@@ -29,6 +29,15 @@ This site was chosen because it provides a login form and basic functionality su
 - test_login.py → Selenium automation script
 
 ---
+
+## 🖥️ Output
+- All test cases passed consistently across Chrome, Firefox, Safari, and Edge.
+- Valid login redirected to the inventory page.
+- Invalid login showed error messages correctly.
+- Empty form submission displayed validation errors.
+- No browser‑specific issues were observed.
+------
+
 **Internship:** Prodigy InfoTech  
 **Intern:** [HAILLEY VALENCIA JG]
 
