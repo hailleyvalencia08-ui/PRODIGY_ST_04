@@ -1,7 +1,13 @@
 # Task‑04: Cross‑Browser Testing with BrowserStack
 
 ## 🎯 Objective
-The purpose of this task is to run automated Selenium tests across multiple browsers and devices using BrowserStack’s Selenium Grid. This ensures that the login/form submission functionality works consistently across Chrome, Firefox, Safari, and Edge.
+The purpose of this task is to run automated Selenium tests across multiple browsers and devices using BrowserStack’s Selenium Grid. This ensures that the login/form submission functionality on the demo site works consistently across Chrome, Firefox, Safari, and Edge.
+
+## 🌐 Demo Site Used
+All cross‑browser tests were executed on the demo site:
+https://www.saucedemo.com/
+
+This site was chosen because it provides a login form and basic functionality suitable for automated testing.
 
 ## 🔍 Scope
 - Automate login and form submission tests.
@@ -25,3 +31,4 @@ The purpose of this task is to run automated Selenium tests across multiple brow
 ---
 **Internship:** Prodigy InfoTech  
 **Intern:** [HAILLEY VALENCIA JG]
+
