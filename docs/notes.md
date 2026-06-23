@@ -3,7 +3,7 @@
 ## Setup
 - Configured Selenium WebDriver to connect with BrowserStack’s Selenium Grid.
 - Added desired capabilities for Chrome, Firefox, Safari, and Edge.
-- Used Python script to run login and form submission tests.
+- Used Python script to run login and form submission tests on https://www.saucedemo.com/.
 
 ## Approach
 1. Open demo site.
@@ -16,3 +16,4 @@
 ## Observation
 - All browsers executed tests successfully.
 - No differences were observed in functionality or layout.
+
